@@ -71,6 +71,7 @@ CMakeFiles/pult411.elf.dir/Core/Src/main.c.o: ../Drivers/STM32F4xx_HAL_Driver/In
 CMakeFiles/pult411.elf.dir/Core/Src/main.c.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 CMakeFiles/pult411.elf.dir/Core/Src/main.c.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 CMakeFiles/pult411.elf.dir/Core/Src/main.c.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+CMakeFiles/pult411.elf.dir/Core/Src/main.c.o: ../nrf24/nrf24.h
 CMakeFiles/pult411.elf.dir/Core/Src/main.c.o: ../Core/Src/main.c
 
 CMakeFiles/pult411.elf.dir/Core/Src/spi.c.o: ../Core/Inc/gpio.h

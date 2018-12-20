@@ -5,19 +5,6 @@
 #define nRF24_CSN_L() HAL_GPIO_WritePin(n->csn_port, n->csn_pin, GPIO_PIN_RESET)
 #define nRF24_CSN_H() HAL_GPIO_WritePin(n->csn_port, n->csn_pin, GPIO_PIN_SET)
 
-uint8_t nRF24_LL_RW(NRF24 *n, uint8_t data) {
-    // Wait until TX buffer is empty
-    //while (SPI_I2S_GetFlagStatus(n->spi,
-    //SPI_I2S_FLAG_TXE) == RESET);
-    // Send byte to SPI (TXE cleared)
-    //SPI_I2S_SendData(nRF24_SPI_PORT, data);
-    // Wait while receive buffer is empty
-//	while (SPI_I2S_GetFlagStatus(nRF24_SPI_PORT, SPI_I2S_FLAG_RXNE) == RESET);
-
-    // Return received byte
-//	return (uint8_t)SPI_I2S_ReceiveData(nRF24_SPI_PORT);
-    return 0;
-}
 
 /* Read a register
  input:
@@ -28,8 +15,12 @@ static uint8_t nRF24_ReadReg(NRF24 *n, uint8_t reg)
     uint8_t value;
     
     nRF24_CSN_L();
-    nRF24_LL_RW(n, reg & nRF24_MASK_REG_MAP);
-    value = nRF24_LL_RW(n, nRF24_CMD_NOP);
+    //nRF24_LL_RW(n, reg & nRF24_MASK_REG_MAP);
+    //value = nRF24_LL_RW(n, nRF24_CMD_NOP);
+    uint8_t tx[2] = {reg & nRF24_MASK_REG_MAP, nRF24_CMD_NOP};
+    uint8_t rx[2] = {0};
+    HAL_SPI_TransmitReceive(n->spi, tx, rx, 2, 10);
+    value = rx[1];
     nRF24_CSN_H();
     return value;
 }
@@ -43,15 +34,21 @@ static void nRF24_WriteReg(NRF24 *n, uint8_t reg, uint8_t value)
     nRF24_CSN_L();
     if (reg < nRF24_CMD_W_REGISTER) {
         // This is a register access
-        nRF24_LL_RW(n, nRF24_CMD_W_REGISTER | (reg & nRF24_MASK_REG_MAP));
-        nRF24_LL_RW(n, value);
+        uint8_t tx[2] = {nRF24_CMD_W_REGISTER
+                         | (reg & nRF24_MASK_REG_MAP),
+                         value };
+        HAL_SPI_Transmit(n->spi, tx, 2, 10);
     } else {
         // This is a single byte command or future command/register
-        nRF24_LL_RW(n, reg);
+        uint8_t tx[2] = {reg, 0};
         if ((reg != nRF24_CMD_FLUSH_TX) && (reg != nRF24_CMD_FLUSH_RX) && \
             (reg != nRF24_CMD_REUSE_TX_PL) && (reg != nRF24_CMD_NOP)) {
             // Send register value
-            nRF24_LL_RW(n, value);
+            tx[1] = value;
+            HAL_SPI_Transmit(n->spi, tx, 2, 10);
+        }
+        else {
+            HAL_SPI_Transmit(n->spi, tx, 1, 10);
         }
     }
     nRF24_CSN_H();
@@ -66,12 +63,21 @@ static void nRF24_ReadMBReg(NRF24 *n,
                             uint8_t reg, uint8_t *pBuf,
                             uint8_t count)
 {
-    nRF24_CSN_L();
-    nRF24_LL_RW(n, reg);
-    while (count--) {
-        *pBuf++ = nRF24_LL_RW(n, nRF24_CMD_NOP);
+    uint8_t tbuf[128] = {0};
+    uint8_t rbuf[128] = {0};
+    if(count > 126)
+    {
+        printf("ReadMBReg small buf\n");
     }
+    tbuf[0] = reg;
+    nRF24_CSN_L();
+    HAL_SPI_TransmitReceive(n->spi, tbuf, rbuf, count + 1, 100);
     nRF24_CSN_H();
+    int i = 1;
+    while (count--) {
+        *pBuf++ = rbuf[i];
+        i++;
+    }
 }
 
 /* Write a multi-byte register
@@ -84,17 +90,27 @@ static void nRF24_WriteMBReg(NRF24 *n,
                              uint8_t count)
 {
     nRF24_CSN_L();
-    nRF24_LL_RW(n, reg);
-    while (count--) {
-        nRF24_LL_RW(n, *pBuf++);
+    uint8_t tbuf[128] = {0};
+    if(count > 126)
+    {
+        printf("WriteMBReg small buf\n");
     }
+    tbuf[0] = reg;
+    int i = 0;
+    int cnt = count;
+    while (count--) {
+        tbuf[i + 1] = pBuf[i];
+        i++;
+    }
+    nRF24_CSN_L();
+    HAL_SPI_Transmit(n->spi, tbuf, cnt + 1, 100);
     nRF24_CSN_H();
 }
 
 // Set transceiver to it's initial state
 // note: RX/TX pipe addresses remains untouched
 void nRF24_Init    (NRF24 *n,
-                    HAL_SPI_StateTypeDef *spi,
+                    SPI_HandleTypeDef *spi,
                     GPIO_TypeDef *ce_port,
                     uint16_t     ce_pin,
     
@@ -111,7 +127,9 @@ void nRF24_Init    (NRF24 *n,
     n->csn_pin  = csn_pin;
     n->irq_port = irq_port;
     n->irq_pin  = irq_pin;
-    
+
+    nRF24_CE_H();
+    nRF24_CSN_H();
     // Write to registers their initial values
     nRF24_WriteReg(n, nRF24_REG_CONFIG, 0x08);
     nRF24_WriteReg(n, nRF24_REG_EN_AA, 0x3F);
@@ -227,10 +245,15 @@ void nRF24_SetAddr(NRF24 *n, uint8_t pipe, const uint8_t *addr)
         // Write address in reverse order (LSByte first)
         addr += addr_width;
         nRF24_CSN_L();
-        nRF24_LL_RW(n, nRF24_CMD_W_REGISTER | nRF24_ADDR_REGS[pipe]);
+        uint8_t ad[128] = {0};
+        uint8_t adr_width = addr_width;
+        int i = 1;
+        ad[0] = nRF24_CMD_W_REGISTER | nRF24_ADDR_REGS[pipe];
         do {
-            nRF24_LL_RW(n, *addr--);
+            ad[i] = *addr--;
+            i++;
         } while (addr_width--);
+        HAL_SPI_Transmit(n->spi, ad, adr_width + 1, 10);
         nRF24_CSN_H();
         break;
     case nRF24_PIPE2:

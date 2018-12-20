@@ -44,13 +44,19 @@
 #include "gpio.h"
 
 /* USER CODE BEGIN Includes */
-
+#include "nrf24.h"
 /* USER CODE END Includes */
 
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
 /* Private variables ---------------------------------------------------------*/
+int _write(int file, char *ptr, int len)
+{
+    //CDC_Transmit_FS((uint8_t*)ptr, len);
+    HAL_UART_Transmit(&huart2, (uint8_t*)ptr, len, 10);
+    return len;
+}
 
 /* USER CODE END PV */
 
@@ -98,6 +104,17 @@ int main(void)
   MX_USART2_UART_Init();
   MX_SPI2_Init();
   /* USER CODE BEGIN 2 */
+  NRF24 n;
+  printf("Hello, norilsk\n");
+  nRF24_Init(&n, &hspi2,
+             CE_GPIO_Port, CE_Pin,
+             SCN_GPIO_Port, SCN_Pin,
+             IRQ_GPIO_Port, IRQ_Pin);
+  printf("nrf24 inited\n");
+  if(nRF24_Check(&n))
+      printf("nrf24 OK\n");
+  else
+      printf("nrf24 ERR\n");
   /* USER CODE END 2 */
 
   /* Infinite loop */

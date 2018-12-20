@@ -196,7 +196,7 @@ static const uint8_t nRF24_ADDR_REGS[7] = {
 };
 
 typedef struct {
-    HAL_SPI_StateTypeDef *spi;
+    SPI_HandleTypeDef *spi;
     GPIO_TypeDef *ce_port;
     uint16_t      ce_pin;
     
@@ -210,7 +210,7 @@ typedef struct {
 
 // Function prototypes
 void nRF24_Init    (NRF24 *n,
-                    HAL_SPI_StateTypeDef *spi,
+                    SPI_HandleTypeDef *spi,
                     GPIO_TypeDef *ce_port,
                     uint16_t     ce_pin,
     
