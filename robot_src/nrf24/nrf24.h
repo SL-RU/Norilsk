@@ -346,6 +346,7 @@ void           nRF24_WritePayload(NRF24 *n,
 nRF24_RXResult nRF24_ReadPayload (NRF24 *n,
                                   uint8_t *pBuf,
                                   uint8_t *length);
+
 void nRF24_toRX(NRF24 *n);
 void nRF24_toTX(NRF24 *n);
 

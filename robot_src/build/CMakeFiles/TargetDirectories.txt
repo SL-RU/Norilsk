@@ -1,0 +1,5 @@
+/home/lyra/tmp/Norilsk/robot_src/build/CMakeFiles/edit_cache.dir
+/home/lyra/tmp/Norilsk/robot_src/build/CMakeFiles/rebuild_cache.dir
+/home/lyra/tmp/Norilsk/robot_src/build/CMakeFiles/robot_src.elf.dir
+/home/lyra/tmp/Norilsk/robot_src/build/CMakeFiles/robot_src.bin.dir
+/home/lyra/tmp/Norilsk/robot_src/build/CMakeFiles/robot_src.hex.dir

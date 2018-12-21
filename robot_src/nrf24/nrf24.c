@@ -128,6 +128,7 @@ void nRF24_Init    (NRF24 *n,
     n->irq_port = irq_port;
     n->irq_pin  = irq_pin;
 
+    nRF24_CE_H();
     nRF24_CSN_H();
     // Write to registers their initial values
     nRF24_WriteReg(n, nRF24_REG_CONFIG, 0x08);
@@ -444,6 +445,7 @@ nRF24_RXResult nRF24_ReadPayload(NRF24 *n,
 
     return nRF24_RX_EMPTY;
 }
+
 
 void nRF24_toRX(NRF24 *n)
 {
