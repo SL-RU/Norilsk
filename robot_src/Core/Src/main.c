@@ -157,36 +157,40 @@ int main(void)
                NRF_IRQ_GPIO_Port, NRF_IRQ_Pin);
     printf("nrf24 inited\n");
     if(nRF24_Check(&n))
-        printf("nrf24 OK\n");
+        printf("nrf24 OK %d\n", nRF24_GetStatus(&n));
     else
         printf("nrf24 ERR\n");
-
+    nRF24_toTX(&n);
 
     // Disable ShockBurst for all RX pipes
-    nRF24_DisableAA(&n, 0xFF);
+    //nRF24_DisableAA(&n, 0xFF);
     // Set RF channel
-    nRF24_SetRFChannel(&n, 115);
+    nRF24_SetRFChannel(&n, 76 );
     // Set data rate
-    nRF24_SetDataRate(&n, nRF24_DR_250kbps);
+    nRF24_SetDataRate(&n, nRF24_DR_1Mbps);
     // Set CRC scheme
-    nRF24_SetCRCScheme(&n, nRF24_CRC_2byte);
+    //nRF24_SetCRCScheme(&n, nRF24_CRC_2byte);
     // Set address width, its common for all pipes (RX and TX)
-    nRF24_SetAddrWidth(&n, 3);
+    nRF24_SetAddrWidth(&n, 5);
     // Configure RX PIPE#1
-    static const uint8_t nRF24_ADDR[] = { 'p', 'u', 'l' };
+    static const uint8_t nRF24_ADDR[] = { '0', '0', '0', '0', '1' };
     nRF24_SetAddr(&n, nRF24_PIPE1, nRF24_ADDR); // program address for RX pipe #1
-    nRF24_SetRXPipe(&n, nRF24_PIPE1, nRF24_AA_OFF, 5); // Auto-ACK: disabled, payload length: 5 bytes
+    nRF24_SetRXPipe(&n, nRF24_PIPE1, nRF24_AA_ON , 10); // Auto-ACK: disabled, payload length: 5 bytes
 
+    nRF24_SetTXPower(&n, nRF24_TXPWR_0dBm);
     // Set operational mode (PRX == receiver)
     nRF24_SetOperationalMode(&n, nRF24_MODE_RX);
+
+    nRF24_ClearIRQFlags(&n);
 
     // Wake the transceiver
     nRF24_SetPowerMode(&n, nRF24_PWR_UP);
 
     // Put the transceiver to the RX mode
     nRF24_toRX(&n);
-
+    printf("n1 %d\n", nRF24_GetStatus(&n));
     // The main loop
+    int i = 1;
     while (1) {
         //
         // Constantly poll the status of the RX FIFO and get a payload if FIFO is not empty
@@ -194,7 +198,11 @@ int main(void)
         // This is far from best solution, but it's ok for testing purposes
         // More smart way is to use the IRQ pin :)
         //
-        if (nRF24_GetStatus_RXFIFO(&n) != nRF24_STATUS_RXFIFO_EMPTY) {
+        
+        //printf("n2 %d %d %d\n", nRF24_GetStatus(&n), nRF24_GetStatus_RXFIFO(&n),
+        //    HAL_GPIO_ReadPin(NRF_IRQ_GPIO_Port, NRF_IRQ_Pin));
+        uint8_t st  = nRF24_GetStatus(&n);
+        if (st != 14) {
             // Get a payload from the transceiver
             pipe = nRF24_ReadPayload(&n, nRF24_payload, &payload_length);
 
@@ -202,8 +210,12 @@ int main(void)
             nRF24_ClearIRQFlags(&n);
 
             // Print a payload contents to UART
-            printf("recieved %d - %d %d\n", pipe, nRF24_payload[0], nRF24_payload[1]);
+            printf("recieved %d %d - %d %d\n", st, pipe, nRF24_payload[0], nRF24_payload[1]);
         }
+        //nRF24_ClearIRQFlags(&n);
+        //HALnRF24_ClearIRQFlags(&n);_Delay(500);
+        //printf("st [%d] %d\n", nRF24_GetStatus(&n), i);
+        i++;
     }
 
   
