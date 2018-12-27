@@ -47,6 +47,8 @@
 #define nRF24_REG_DYNPD            (uint8_t)0x1C // Enable dynamic payload length
 #define nRF24_REG_FEATURE          (uint8_t)0x1D // Feature register
 
+#define nRF24_ACTIVATE             (uint8_t)0x50 // Activate
+
 // Register bits definitions
 #define nRF24_CONFIG_PRIM_RX       (uint8_t)0x01 // PRIM_RX bit in CONFIG register
 #define nRF24_CONFIG_PWR_UP        (uint8_t)0x02 // PWR_UP bit in CONFIG register
