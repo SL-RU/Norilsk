@@ -358,7 +358,11 @@ void nRF24_CE_OFF(NRF24 *n);
 void nRF24_print(NRF24 *n);
 
 void nRF24_openWritingPipe(NRF24 *n, uint8_t *addr, uint8_t length);
-void nRF24_stopListening(NRF24 *n);
+void nRF24_openReadingPipe(NRF24 *n, uint8_t *addr, uint8_t length);
 void nRF24_write(NRF24 *n, void* buf, uint8_t len);
+
+void nRF24_stopListening(NRF24 *n);
+void nRF24_startListening(NRF24 *n);
+
 
 #endif // __NRF24_H

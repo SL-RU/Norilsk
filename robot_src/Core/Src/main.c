@@ -136,19 +136,6 @@ int main(void)
     MX_USART1_UART_Init();
     MX_TIM4_Init();
     /* USER CODE BEGIN 2 */
-    printf("Hello!\n");
-    HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_4);
-    mot(STOP, STOP);
-    HAL_Delay(2000);
-
-    // Buffer to store a payload of maximum width
-    uint8_t nRF24_payload[32];
-
-// Pipe number
-    nRF24_RXResult pipe;
-
-// Length of received payload
-    uint8_t payload_length;
     NRF24 n;
     printf("Hello, norilsk\n");
     nRF24_Init(&n, &hspi1,
@@ -156,14 +143,14 @@ int main(void)
                NRF_SCN_GPIO_Port, NRF_SCN_Pin,
                NRF_IRQ_GPIO_Port, NRF_IRQ_Pin);
     printf("nrf24 inited\n");
-    //if(nRF24_Check(&n))
-    //    printf("nrf24 OK %d\n", nRF24_GetStatus(&n));
-    //else
-    //    printf("nrf24 ERR\n");
+    if(nRF24_Check(&n))
+       printf("nrf24 OK %d\n", nRF24_GetStatus(&n));
+    else
+       printf("nrf24 ERR\n");
 
     uint8_t addr[] = "00001";
     nRF24_openWritingPipe(&n, addr, 5);
-    nRF24_SetTXPower(&n, nRF24_TXPWR_6dBm);
+    nRF24_SetTXPower(&n, nRF24_TXPWR_0dBm);
     nRF24_stopListening(&n);
 
     // Put the transceiver to the RX mode
@@ -171,23 +158,17 @@ int main(void)
     // The main loop
     int i = 1;
     while (1) {
-        //
-        // Constantly poll the status of the RX FIFO and get a payload if FIFO is not empty
-        //
-        // This is far from best solution, but it's ok for testing purposes
-        // More smart way is to use the IRQ pin :)
-        //
-        
-        //printf("n2 %d %d %d\n", nRF24_GetStatus(&n), nRF24_GetStatus_RXFIFO(&n),
-        //    HAL_GPIO_ReadPin(NRF_IRQ_GPIO_Port, NRF_IRQ_Pin));
-          char text[] = "Hello from STM32";
-          nRF24_write(&n, text, sizeof(text));
-          HAL_Delay(1000);
-        //nRF24_ClearIRQFlags(&n);
-        //HALnRF24_ClearIRQFlags(&n);_Delay(500);
-        //printf("st [%d] %d\n", nRF24_GetStatus(&n), i);
-        i++;
+        if(HAL_GPIO_ReadPin(Button_GPIO_Port, Button_Pin)) {
+            char text[] = "P71";
+            nRF24_write(&n, text, sizeof(text));
+        }
+        else {
+            char text[] = "P70";
+            nRF24_write(&n, text, sizeof(text));
+        }
+        HAL_Delay(50);
     }
+
 
   
     /* USER CODE END 2 */

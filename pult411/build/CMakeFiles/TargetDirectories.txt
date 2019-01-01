@@ -1,5 +1,5 @@
-/home/lyra/prj/norilsk/pult411/build/CMakeFiles/rebuild_cache.dir
-/home/lyra/prj/norilsk/pult411/build/CMakeFiles/edit_cache.dir
-/home/lyra/prj/norilsk/pult411/build/CMakeFiles/pult411.bin.dir
-/home/lyra/prj/norilsk/pult411/build/CMakeFiles/pult411.elf.dir
-/home/lyra/prj/norilsk/pult411/build/CMakeFiles/pult411.hex.dir
+/home/lyra/tmp/Norilsk/pult411/build/CMakeFiles/rebuild_cache.dir
+/home/lyra/tmp/Norilsk/pult411/build/CMakeFiles/edit_cache.dir
+/home/lyra/tmp/Norilsk/pult411/build/CMakeFiles/pult411.bin.dir
+/home/lyra/tmp/Norilsk/pult411/build/CMakeFiles/pult411.elf.dir
+/home/lyra/tmp/Norilsk/pult411/build/CMakeFiles/pult411.hex.dir

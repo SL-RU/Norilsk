@@ -119,9 +119,21 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+  uint8_t addr[] = "00001";
+  nRF24_openWritingPipe(&n, addr, 5);
+  nRF24_SetTXPower(&n, nRF24_TXPWR_6dBm);
+  nRF24_stopListening(&n);
   while (1)
   {
-
+      if(HAL_GPIO_ReadPin(B1_GPIO_Port, B1_Pin)) {
+          char text[] = "P11";
+          nRF24_write(&n, text, sizeof(text));
+      }
+      else {
+          char text[] = "P10";
+          nRF24_write(&n, text, sizeof(text));
+      }
+      HAL_Delay(10);
   /* USER CODE END WHILE */
 
   /* USER CODE BEGIN 3 */

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lyra/prj/norilsk/pult411
+CMAKE_SOURCE_DIR = /home/lyra/tmp/Norilsk/pult411
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lyra/prj/norilsk/pult411/build
+CMAKE_BINARY_DIR = /home/lyra/tmp/Norilsk/pult411/build
 
 # Utility rule file for pult411.bin.
 
@@ -71,6 +71,6 @@ CMakeFiles/pult411.bin.dir/clean:
 .PHONY : CMakeFiles/pult411.bin.dir/clean
 
 CMakeFiles/pult411.bin.dir/depend:
-	cd /home/lyra/prj/norilsk/pult411/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lyra/prj/norilsk/pult411 /home/lyra/prj/norilsk/pult411 /home/lyra/prj/norilsk/pult411/build /home/lyra/prj/norilsk/pult411/build /home/lyra/prj/norilsk/pult411/build/CMakeFiles/pult411.bin.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lyra/tmp/Norilsk/pult411/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lyra/tmp/Norilsk/pult411 /home/lyra/tmp/Norilsk/pult411 /home/lyra/tmp/Norilsk/pult411/build /home/lyra/tmp/Norilsk/pult411/build /home/lyra/tmp/Norilsk/pult411/build/CMakeFiles/pult411.bin.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pult411.bin.dir/depend
 

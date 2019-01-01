@@ -278,3 +278,15 @@ gpio.h
 nrf24.h
 /home/lyra/tmp/Norilsk/robot_src/Core/Src/nrf24.h
 
+/home/lyra/tmp/Norilsk/robot_src/nrf24/nrf24.c
+nrf24.h
+/home/lyra/tmp/Norilsk/robot_src/nrf24/nrf24.h
+
+/home/lyra/tmp/Norilsk/robot_src/nrf24/nrf24.h
+inttypes.h
+-
+spi.h
+/home/lyra/tmp/Norilsk/robot_src/nrf24/spi.h
+gpio.h
+/home/lyra/tmp/Norilsk/robot_src/nrf24/gpio.h
+

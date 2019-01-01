@@ -149,7 +149,7 @@ Connection ~ 7950 2600
 Wire Wire Line
 	7950 2600 8050 2600
 $Comp
-L power:+3.3V #PWR0101
+L sch-rescue:+3.3V-power #PWR0101
 U 1 1 5C096C9E
 P 7950 2550
 F 0 "#PWR0101" H 7950 2400 50  0001 C CNN
@@ -160,7 +160,7 @@ F 3 "" H 7950 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0102
+L sch-rescue:GND-power #PWR0102
 U 1 1 5C096D17
 P 7950 3150
 F 0 "#PWR0102" H 7950 2900 50  0001 C CNN
@@ -176,7 +176,7 @@ Connection ~ 7950 3100
 Wire Wire Line
 	7950 3100 8050 3100
 $Comp
-L power:GND #PWR0103
+L sch-rescue:GND-power #PWR0103
 U 1 1 5C096FD2
 P 4550 5200
 F 0 "#PWR0103" H 4550 4950 50  0001 C CNN
@@ -229,7 +229,7 @@ Connection ~ 4700 2050
 Wire Wire Line
 	4700 2050 4600 2050
 $Comp
-L power:+3.3V #PWR0104
+L sch-rescue:+3.3V-power #PWR0104
 U 1 1 5C09A14A
 P 4600 2000
 F 0 "#PWR0104" H 4600 1850 50  0001 C CNN
@@ -242,7 +242,7 @@ $EndComp
 Wire Wire Line
 	4600 2000 4600 2050
 $Comp
-L power:GND #PWR0105
+L sch-rescue:GND-power #PWR0105
 U 1 1 5C09AC46
 P 7950 4800
 F 0 "#PWR0105" H 7950 4550 50  0001 C CNN
@@ -257,7 +257,7 @@ Wire Wire Line
 Wire Wire Line
 	7950 4750 7900 4750
 $Comp
-L power:+3.3V #PWR0106
+L sch-rescue:+3.3V-power #PWR0106
 U 1 1 5C09B6FF
 P 7350 4800
 F 0 "#PWR0106" H 7350 4650 50  0001 C CNN
@@ -307,7 +307,7 @@ F 3 "~" H 3500 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0107
+L sch-rescue:GND-power #PWR0107
 U 1 1 5C0A4A65
 P 3250 2550
 F 0 "#PWR0107" H 3250 2300 50  0001 C CNN
@@ -378,7 +378,7 @@ $EndComp
 Wire Wire Line
 	6950 5500 7350 5500
 $Comp
-L power:GND #PWR0108
+L sch-rescue:GND-power #PWR0108
 U 1 1 5C0B768D
 P 7850 6200
 F 0 "#PWR0108" H 7850 5950 50  0001 C CNN
@@ -436,7 +436,7 @@ Wire Wire Line
 Wire Wire Line
 	8350 6150 7850 6150
 $Comp
-L power:+3.3V #PWR0109
+L sch-rescue:+3.3V-power #PWR0109
 U 1 1 5C0C1827
 P 8350 5450
 F 0 "#PWR0109" H 8350 5300 50  0001 C CNN
@@ -450,7 +450,7 @@ Wire Wire Line
 	8350 5450 8350 5500
 Connection ~ 8350 5500
 $Comp
-L power:GND #PWR0110
+L sch-rescue:GND-power #PWR0110
 U 1 1 5C0C37D2
 P 5800 5000
 F 0 "#PWR0110" H 5800 4750 50  0001 C CNN
@@ -463,7 +463,7 @@ $EndComp
 Wire Wire Line
 	5800 5000 5800 4900
 $Comp
-L power:+3.3V #PWR0111
+L sch-rescue:+3.3V-power #PWR0111
 U 1 1 5C0C79EF
 P 5950 5100
 F 0 "#PWR0111" H 5950 4950 50  0001 C CNN
@@ -505,7 +505,7 @@ F 3 "~" H 6050 4600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0112
+L sch-rescue:GND-power #PWR0112
 U 1 1 5C0C7B07
 P 6400 4650
 F 0 "#PWR0112" H 6400 4400 50  0001 C CNN
@@ -666,7 +666,7 @@ F 3 "~" H 3600 4100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MCU_ST_STM32F1:STM32F103C8Tx U1
+L sch-rescue:STM32F103C8Tx-MCU_ST_STM32F1 U1
 U 1 1 5C091EBB
 P 4600 3600
 F 0 "U1" H 4550 2014 50  0000 C CNN

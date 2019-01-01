@@ -1,0 +1,5 @@
+/home/lyra/tmp/Norilsk/pult_src/build/CMakeFiles/rebuild_cache.dir
+/home/lyra/tmp/Norilsk/pult_src/build/CMakeFiles/edit_cache.dir
+/home/lyra/tmp/Norilsk/pult_src/build/CMakeFiles/pult_src.bin.dir
+/home/lyra/tmp/Norilsk/pult_src/build/CMakeFiles/pult_src.elf.dir
+/home/lyra/tmp/Norilsk/pult_src/build/CMakeFiles/pult_src.hex.dir

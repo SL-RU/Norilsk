@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lyra/prj/norilsk/pult411
+CMAKE_SOURCE_DIR = /home/lyra/tmp/Norilsk/pult411
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lyra/prj/norilsk/pult411/build
+CMAKE_BINARY_DIR = /home/lyra/tmp/Norilsk/pult411/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pult411.elf.dir/depend.make
@@ -59,320 +59,320 @@ include CMakeFiles/pult411.elf.dir/flags.make
 
 CMakeFiles/pult411.elf.dir/Core/Src/gpio.c.o: CMakeFiles/pult411.elf.dir/flags.make
 CMakeFiles/pult411.elf.dir/Core/Src/gpio.c.o: ../Core/Src/gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/prj/norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/pult411.elf.dir/Core/Src/gpio.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Core/Src/gpio.c.o   -c /home/lyra/prj/norilsk/pult411/Core/Src/gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/tmp/Norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/pult411.elf.dir/Core/Src/gpio.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Core/Src/gpio.c.o   -c /home/lyra/tmp/Norilsk/pult411/Core/Src/gpio.c
 
 CMakeFiles/pult411.elf.dir/Core/Src/gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pult411.elf.dir/Core/Src/gpio.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/prj/norilsk/pult411/Core/Src/gpio.c > CMakeFiles/pult411.elf.dir/Core/Src/gpio.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/tmp/Norilsk/pult411/Core/Src/gpio.c > CMakeFiles/pult411.elf.dir/Core/Src/gpio.c.i
 
 CMakeFiles/pult411.elf.dir/Core/Src/gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pult411.elf.dir/Core/Src/gpio.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/prj/norilsk/pult411/Core/Src/gpio.c -o CMakeFiles/pult411.elf.dir/Core/Src/gpio.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/tmp/Norilsk/pult411/Core/Src/gpio.c -o CMakeFiles/pult411.elf.dir/Core/Src/gpio.c.s
 
 CMakeFiles/pult411.elf.dir/Core/Src/main.c.o: CMakeFiles/pult411.elf.dir/flags.make
 CMakeFiles/pult411.elf.dir/Core/Src/main.c.o: ../Core/Src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/prj/norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/pult411.elf.dir/Core/Src/main.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Core/Src/main.c.o   -c /home/lyra/prj/norilsk/pult411/Core/Src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/tmp/Norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/pult411.elf.dir/Core/Src/main.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Core/Src/main.c.o   -c /home/lyra/tmp/Norilsk/pult411/Core/Src/main.c
 
 CMakeFiles/pult411.elf.dir/Core/Src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pult411.elf.dir/Core/Src/main.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/prj/norilsk/pult411/Core/Src/main.c > CMakeFiles/pult411.elf.dir/Core/Src/main.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/tmp/Norilsk/pult411/Core/Src/main.c > CMakeFiles/pult411.elf.dir/Core/Src/main.c.i
 
 CMakeFiles/pult411.elf.dir/Core/Src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pult411.elf.dir/Core/Src/main.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/prj/norilsk/pult411/Core/Src/main.c -o CMakeFiles/pult411.elf.dir/Core/Src/main.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/tmp/Norilsk/pult411/Core/Src/main.c -o CMakeFiles/pult411.elf.dir/Core/Src/main.c.s
 
 CMakeFiles/pult411.elf.dir/Core/Src/spi.c.o: CMakeFiles/pult411.elf.dir/flags.make
 CMakeFiles/pult411.elf.dir/Core/Src/spi.c.o: ../Core/Src/spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/prj/norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/pult411.elf.dir/Core/Src/spi.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Core/Src/spi.c.o   -c /home/lyra/prj/norilsk/pult411/Core/Src/spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/tmp/Norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/pult411.elf.dir/Core/Src/spi.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Core/Src/spi.c.o   -c /home/lyra/tmp/Norilsk/pult411/Core/Src/spi.c
 
 CMakeFiles/pult411.elf.dir/Core/Src/spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pult411.elf.dir/Core/Src/spi.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/prj/norilsk/pult411/Core/Src/spi.c > CMakeFiles/pult411.elf.dir/Core/Src/spi.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/tmp/Norilsk/pult411/Core/Src/spi.c > CMakeFiles/pult411.elf.dir/Core/Src/spi.c.i
 
 CMakeFiles/pult411.elf.dir/Core/Src/spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pult411.elf.dir/Core/Src/spi.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/prj/norilsk/pult411/Core/Src/spi.c -o CMakeFiles/pult411.elf.dir/Core/Src/spi.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/tmp/Norilsk/pult411/Core/Src/spi.c -o CMakeFiles/pult411.elf.dir/Core/Src/spi.c.s
 
 CMakeFiles/pult411.elf.dir/Core/Src/stm32f4xx_hal_msp.c.o: CMakeFiles/pult411.elf.dir/flags.make
 CMakeFiles/pult411.elf.dir/Core/Src/stm32f4xx_hal_msp.c.o: ../Core/Src/stm32f4xx_hal_msp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/prj/norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/pult411.elf.dir/Core/Src/stm32f4xx_hal_msp.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Core/Src/stm32f4xx_hal_msp.c.o   -c /home/lyra/prj/norilsk/pult411/Core/Src/stm32f4xx_hal_msp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/tmp/Norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/pult411.elf.dir/Core/Src/stm32f4xx_hal_msp.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Core/Src/stm32f4xx_hal_msp.c.o   -c /home/lyra/tmp/Norilsk/pult411/Core/Src/stm32f4xx_hal_msp.c
 
 CMakeFiles/pult411.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pult411.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/prj/norilsk/pult411/Core/Src/stm32f4xx_hal_msp.c > CMakeFiles/pult411.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/tmp/Norilsk/pult411/Core/Src/stm32f4xx_hal_msp.c > CMakeFiles/pult411.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i
 
 CMakeFiles/pult411.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pult411.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/prj/norilsk/pult411/Core/Src/stm32f4xx_hal_msp.c -o CMakeFiles/pult411.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/tmp/Norilsk/pult411/Core/Src/stm32f4xx_hal_msp.c -o CMakeFiles/pult411.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s
 
 CMakeFiles/pult411.elf.dir/Core/Src/stm32f4xx_it.c.o: CMakeFiles/pult411.elf.dir/flags.make
 CMakeFiles/pult411.elf.dir/Core/Src/stm32f4xx_it.c.o: ../Core/Src/stm32f4xx_it.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/prj/norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/pult411.elf.dir/Core/Src/stm32f4xx_it.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Core/Src/stm32f4xx_it.c.o   -c /home/lyra/prj/norilsk/pult411/Core/Src/stm32f4xx_it.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/tmp/Norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/pult411.elf.dir/Core/Src/stm32f4xx_it.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Core/Src/stm32f4xx_it.c.o   -c /home/lyra/tmp/Norilsk/pult411/Core/Src/stm32f4xx_it.c
 
 CMakeFiles/pult411.elf.dir/Core/Src/stm32f4xx_it.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pult411.elf.dir/Core/Src/stm32f4xx_it.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/prj/norilsk/pult411/Core/Src/stm32f4xx_it.c > CMakeFiles/pult411.elf.dir/Core/Src/stm32f4xx_it.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/tmp/Norilsk/pult411/Core/Src/stm32f4xx_it.c > CMakeFiles/pult411.elf.dir/Core/Src/stm32f4xx_it.c.i
 
 CMakeFiles/pult411.elf.dir/Core/Src/stm32f4xx_it.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pult411.elf.dir/Core/Src/stm32f4xx_it.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/prj/norilsk/pult411/Core/Src/stm32f4xx_it.c -o CMakeFiles/pult411.elf.dir/Core/Src/stm32f4xx_it.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/tmp/Norilsk/pult411/Core/Src/stm32f4xx_it.c -o CMakeFiles/pult411.elf.dir/Core/Src/stm32f4xx_it.c.s
 
 CMakeFiles/pult411.elf.dir/Core/Src/system_stm32f4xx.c.o: CMakeFiles/pult411.elf.dir/flags.make
 CMakeFiles/pult411.elf.dir/Core/Src/system_stm32f4xx.c.o: ../Core/Src/system_stm32f4xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/prj/norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/pult411.elf.dir/Core/Src/system_stm32f4xx.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Core/Src/system_stm32f4xx.c.o   -c /home/lyra/prj/norilsk/pult411/Core/Src/system_stm32f4xx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/tmp/Norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/pult411.elf.dir/Core/Src/system_stm32f4xx.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Core/Src/system_stm32f4xx.c.o   -c /home/lyra/tmp/Norilsk/pult411/Core/Src/system_stm32f4xx.c
 
 CMakeFiles/pult411.elf.dir/Core/Src/system_stm32f4xx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pult411.elf.dir/Core/Src/system_stm32f4xx.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/prj/norilsk/pult411/Core/Src/system_stm32f4xx.c > CMakeFiles/pult411.elf.dir/Core/Src/system_stm32f4xx.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/tmp/Norilsk/pult411/Core/Src/system_stm32f4xx.c > CMakeFiles/pult411.elf.dir/Core/Src/system_stm32f4xx.c.i
 
 CMakeFiles/pult411.elf.dir/Core/Src/system_stm32f4xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pult411.elf.dir/Core/Src/system_stm32f4xx.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/prj/norilsk/pult411/Core/Src/system_stm32f4xx.c -o CMakeFiles/pult411.elf.dir/Core/Src/system_stm32f4xx.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/tmp/Norilsk/pult411/Core/Src/system_stm32f4xx.c -o CMakeFiles/pult411.elf.dir/Core/Src/system_stm32f4xx.c.s
 
 CMakeFiles/pult411.elf.dir/Core/Src/usart.c.o: CMakeFiles/pult411.elf.dir/flags.make
 CMakeFiles/pult411.elf.dir/Core/Src/usart.c.o: ../Core/Src/usart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/prj/norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/pult411.elf.dir/Core/Src/usart.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Core/Src/usart.c.o   -c /home/lyra/prj/norilsk/pult411/Core/Src/usart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/tmp/Norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/pult411.elf.dir/Core/Src/usart.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Core/Src/usart.c.o   -c /home/lyra/tmp/Norilsk/pult411/Core/Src/usart.c
 
 CMakeFiles/pult411.elf.dir/Core/Src/usart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pult411.elf.dir/Core/Src/usart.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/prj/norilsk/pult411/Core/Src/usart.c > CMakeFiles/pult411.elf.dir/Core/Src/usart.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/tmp/Norilsk/pult411/Core/Src/usart.c > CMakeFiles/pult411.elf.dir/Core/Src/usart.c.i
 
 CMakeFiles/pult411.elf.dir/Core/Src/usart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pult411.elf.dir/Core/Src/usart.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/prj/norilsk/pult411/Core/Src/usart.c -o CMakeFiles/pult411.elf.dir/Core/Src/usart.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/tmp/Norilsk/pult411/Core/Src/usart.c -o CMakeFiles/pult411.elf.dir/Core/Src/usart.c.s
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.o: CMakeFiles/pult411.elf.dir/flags.make
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.o: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/prj/norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.o   -c /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/tmp/Norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.o   -c /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c > CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c > CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.o: CMakeFiles/pult411.elf.dir/flags.make
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.o: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/prj/norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.o   -c /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/tmp/Norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.o   -c /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c > CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c > CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.o: CMakeFiles/pult411.elf.dir/flags.make
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.o: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/prj/norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.o   -c /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/tmp/Norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.o   -c /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c > CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c > CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.o: CMakeFiles/pult411.elf.dir/flags.make
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.o: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/prj/norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.o   -c /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/tmp/Norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.o   -c /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c > CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c > CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.o: CMakeFiles/pult411.elf.dir/flags.make
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.o: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/prj/norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.o   -c /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/tmp/Norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.o   -c /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c > CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c > CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.o: CMakeFiles/pult411.elf.dir/flags.make
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.o: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/prj/norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.o   -c /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/tmp/Norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.o   -c /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c > CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c > CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.o: CMakeFiles/pult411.elf.dir/flags.make
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.o: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/prj/norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.o   -c /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/tmp/Norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.o   -c /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c > CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c > CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.o: CMakeFiles/pult411.elf.dir/flags.make
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.o: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/prj/norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.o   -c /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/tmp/Norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.o   -c /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c > CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c > CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.o: CMakeFiles/pult411.elf.dir/flags.make
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.o: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/prj/norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.o   -c /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/tmp/Norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.o   -c /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c > CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c > CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.o: CMakeFiles/pult411.elf.dir/flags.make
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.o: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/prj/norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.o   -c /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/tmp/Norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.o   -c /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c > CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c > CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.o: CMakeFiles/pult411.elf.dir/flags.make
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.o: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/prj/norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.o   -c /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/tmp/Norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.o   -c /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c > CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c > CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.o: CMakeFiles/pult411.elf.dir/flags.make
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.o: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/prj/norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.o   -c /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/tmp/Norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.o   -c /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c > CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c > CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.o: CMakeFiles/pult411.elf.dir/flags.make
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.o: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/prj/norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.o   -c /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/tmp/Norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.o   -c /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c > CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c > CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.o: CMakeFiles/pult411.elf.dir/flags.make
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.o: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/prj/norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.o   -c /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/tmp/Norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.o   -c /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c > CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c > CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.o: CMakeFiles/pult411.elf.dir/flags.make
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.o: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/prj/norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.o   -c /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/tmp/Norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.o   -c /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c > CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c > CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.o: CMakeFiles/pult411.elf.dir/flags.make
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.o: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/prj/norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.o   -c /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/tmp/Norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.o   -c /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c > CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c > CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i
 
 CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/prj/norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/tmp/Norilsk/pult411/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c -o CMakeFiles/pult411.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
 
 CMakeFiles/pult411.elf.dir/nrf24/nrf24.c.o: CMakeFiles/pult411.elf.dir/flags.make
 CMakeFiles/pult411.elf.dir/nrf24/nrf24.c.o: ../nrf24/nrf24.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/prj/norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/pult411.elf.dir/nrf24/nrf24.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/nrf24/nrf24.c.o   -c /home/lyra/prj/norilsk/pult411/nrf24/nrf24.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/tmp/Norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/pult411.elf.dir/nrf24/nrf24.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pult411.elf.dir/nrf24/nrf24.c.o   -c /home/lyra/tmp/Norilsk/pult411/nrf24/nrf24.c
 
 CMakeFiles/pult411.elf.dir/nrf24/nrf24.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pult411.elf.dir/nrf24/nrf24.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/prj/norilsk/pult411/nrf24/nrf24.c > CMakeFiles/pult411.elf.dir/nrf24/nrf24.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lyra/tmp/Norilsk/pult411/nrf24/nrf24.c > CMakeFiles/pult411.elf.dir/nrf24/nrf24.c.i
 
 CMakeFiles/pult411.elf.dir/nrf24/nrf24.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pult411.elf.dir/nrf24/nrf24.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/prj/norilsk/pult411/nrf24/nrf24.c -o CMakeFiles/pult411.elf.dir/nrf24/nrf24.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lyra/tmp/Norilsk/pult411/nrf24/nrf24.c -o CMakeFiles/pult411.elf.dir/nrf24/nrf24.c.s
 
 CMakeFiles/pult411.elf.dir/startup/startup_stm32f411xe.s.o: CMakeFiles/pult411.elf.dir/flags.make
 CMakeFiles/pult411.elf.dir/startup/startup_stm32f411xe.s.o: ../startup/startup_stm32f411xe.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/prj/norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building ASM object CMakeFiles/pult411.elf.dir/startup/startup_stm32f411xe.s.o"
-	arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pult411.elf.dir/startup/startup_stm32f411xe.s.o -c /home/lyra/prj/norilsk/pult411/startup/startup_stm32f411xe.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyra/tmp/Norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building ASM object CMakeFiles/pult411.elf.dir/startup/startup_stm32f411xe.s.o"
+	arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pult411.elf.dir/startup/startup_stm32f411xe.s.o -c /home/lyra/tmp/Norilsk/pult411/startup/startup_stm32f411xe.s
 
 # Object files for target pult411.elf
 pult411_elf_OBJECTS = \
@@ -432,7 +432,7 @@ pult411.elf: CMakeFiles/pult411.elf.dir/nrf24/nrf24.c.o
 pult411.elf: CMakeFiles/pult411.elf.dir/startup/startup_stm32f411xe.s.o
 pult411.elf: CMakeFiles/pult411.elf.dir/build.make
 pult411.elf: CMakeFiles/pult411.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lyra/prj/norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking C executable pult411.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lyra/tmp/Norilsk/pult411/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking C executable pult411.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pult411.elf.dir/link.txt --verbose=$(VERBOSE)
 	arm-none-eabi-size pult411.elf
 
@@ -446,6 +446,6 @@ CMakeFiles/pult411.elf.dir/clean:
 .PHONY : CMakeFiles/pult411.elf.dir/clean
 
 CMakeFiles/pult411.elf.dir/depend:
-	cd /home/lyra/prj/norilsk/pult411/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lyra/prj/norilsk/pult411 /home/lyra/prj/norilsk/pult411 /home/lyra/prj/norilsk/pult411/build /home/lyra/prj/norilsk/pult411/build /home/lyra/prj/norilsk/pult411/build/CMakeFiles/pult411.elf.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lyra/tmp/Norilsk/pult411/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lyra/tmp/Norilsk/pult411 /home/lyra/tmp/Norilsk/pult411 /home/lyra/tmp/Norilsk/pult411/build /home/lyra/tmp/Norilsk/pult411/build /home/lyra/tmp/Norilsk/pult411/build/CMakeFiles/pult411.elf.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pult411.elf.dir/depend
 

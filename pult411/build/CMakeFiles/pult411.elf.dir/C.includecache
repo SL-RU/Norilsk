@@ -116,6 +116,12 @@ stm32f4xx_hal_dfsdm.h
 stm32f4xx_hal_lptim.h
 ../Core/Inc/stm32f4xx_hal_lptim.h
 
+../Core/Inc/usart.h
+stm32f4xx_hal.h
+../Core/Inc/stm32f4xx_hal.h
+main.h
+../Core/Inc/main.h
+
 ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h
 core_cm4.h
 ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/core_cm4.h
@@ -326,15 +332,25 @@ stm32f4xx_hal_def.h
 stm32f4xx_hal_def.h
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
 
-/home/lyra/prj/norilsk/pult411/nrf24/nrf24.c
-nrf24.h
-/home/lyra/prj/norilsk/pult411/nrf24/nrf24.h
-
-/home/lyra/prj/norilsk/pult411/nrf24/nrf24.h
+../nrf24/nrf24.h
 inttypes.h
 -
 spi.h
-/home/lyra/prj/norilsk/pult411/nrf24/spi.h
+../nrf24/spi.h
 gpio.h
-/home/lyra/prj/norilsk/pult411/nrf24/gpio.h
+../nrf24/gpio.h
+
+/home/lyra/tmp/Norilsk/pult411/Core/Src/main.c
+main.h
+/home/lyra/tmp/Norilsk/pult411/Core/Src/main.h
+stm32f4xx_hal.h
+/home/lyra/tmp/Norilsk/pult411/Core/Src/stm32f4xx_hal.h
+spi.h
+/home/lyra/tmp/Norilsk/pult411/Core/Src/spi.h
+usart.h
+/home/lyra/tmp/Norilsk/pult411/Core/Src/usart.h
+gpio.h
+/home/lyra/tmp/Norilsk/pult411/Core/Src/gpio.h
+nrf24.h
+/home/lyra/tmp/Norilsk/pult411/Core/Src/nrf24.h
 
